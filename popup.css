@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(9,103,166);
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.bank-block {
+	height: 60px;
+	background-color: rgb(234,226,212);
+	display: flex;
+	align-items: center;
+}
+
+.bank-logo-icon {
+	height: 40px;
+	width: 40px;
+}
+
+.bank-hand {
+	margin: 7px;
+	display: flex;
+}
+
+.bank-card {
+	margin: 2px;
+	display: flex;
+	flex-direction: column;
+	flex: 0 1 auto;
+}
+
+.card-icon {
+	height: 30px;
+	width: 30px;
+}
+
+.card-count {
+	align-self: center;
+	margin: 0px;
+	margin-top: 5px;
+}
