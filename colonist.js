@@ -36,6 +36,10 @@ class Bank {
       ['ore', 19]
       ]);
     this.devCards = 25;
+    // this.devCards = new Map([
+    //   ['']
+    // ])
+
   }
 
   GetResource(resource) {
