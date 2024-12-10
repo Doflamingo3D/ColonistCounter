@@ -11,11 +11,12 @@
     },
     "default_popup": "popup.html"
   },
-  "content_scripts": [
+  "host_permissions": [
+    "https://colonist.io/*"
+],
+"content_scripts": [
     {
-      "matches": ["https://colonist.io/*"],
-      "js": ["colonist.js", "content.js"]
+        "matches": ["https://colonist.io/*"],
+        "js": ["colonist.js", "content.js"]
     }
-  ],
-  "host_permissions": ["https://colonist.io/*"]
-}
+]
