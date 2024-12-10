@@ -16,5 +16,6 @@
       "matches": ["https://colonist.io/*"],
       "js": ["colonist.js", "content.js"]
     }
-  ]
+  ],
+  "host_permissions": ["https://colonist.io/*"]
 }
